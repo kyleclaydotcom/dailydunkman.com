@@ -9,6 +9,7 @@ body {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 18px;
 }
 
 img {
@@ -21,10 +22,12 @@ img {
 h1 {
     font-family: "Press Start 2P", monospace;
     margin: 0 0 5px;
+    font-size: 35px;
 }
 
 h6 {
     margin: 0 0 15px;
+    font-size: 20px;
 }
 
 ul {
@@ -39,9 +42,24 @@ ul li {
 
 ul li a {
     color: #fff;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 ul li a:hover, ul li a:focus {
     color: #ccc;
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h6 {
+        font-size: 24px;
+    }
+
+    ul li a {
+        color: #fff;
+        font-size: 35px;
+    }
 }
